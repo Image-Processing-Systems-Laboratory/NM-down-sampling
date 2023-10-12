@@ -6,7 +6,7 @@ addpath('./utils/');
 %% parameters for down sampling
 scale = 4;                  % Scale Factor
 resolution = [512 512]; % Resolution
-phase = [1 1];          % Phase
+phase = [2 2];          % Phase
 sigma = 1.0;            % Sigma
 
 lr_resolution = resolution / scale;
